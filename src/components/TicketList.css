@@ -1,0 +1,108 @@
+.ticket-list {
+  margin-top: 30px;
+}
+
+.ticket-list h2 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.ticket-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ticket {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ticket.open {
+  border-left: 4px solid #4caf50;
+}
+
+.ticket.closed {
+  border-left: 4px solid #f44336;
+}
+
+.ticket-info {
+  margin-bottom: 10px;
+}
+
+.status {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.response {
+  margin-top: 5px;
+  color: #4caf50;
+}
+
+.ticket-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.response-input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-height: 50px;
+}
+
+.toggle-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+.no-tickets {
+  color: #777;
+  font-style: italic;
+}
+.ticket-card {
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.comments-section {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.comments-section input {
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comments-section button {
+  padding: 6px 10px;
+  margin-left: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
